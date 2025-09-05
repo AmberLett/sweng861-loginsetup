@@ -1,4 +1,8 @@
+Login Social Media Service User Guide 
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+This project implements a social media login service using Next.js and NextAuth.json as mentioned. It supports multiple platforms - Google and LinkedIn. It includes a responsive login interface. 
 
 ## Getting Started
 
