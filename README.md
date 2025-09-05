@@ -51,6 +51,12 @@ Then click the login buttons to authenticate via Goodle or LinkedIn.
 
 Successfully log out by clicking the red log out button towards the center of the app. 
 
+
+Security & Error Handing- 
+OAuth tokens are securely managed by NextAuth.js.
+Environemnt variables are not commited to Github - .env.local resides in .gitignore
+User sessions are also stored server-side for security. 
+
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 ## Learn More
