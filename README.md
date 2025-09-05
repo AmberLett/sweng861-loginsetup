@@ -6,6 +6,10 @@ This project implements a social media login service using Next.js and NextAuth.
 
 ## Getting Started
 
+Install dependencies: 
+
+npm install 
+
 First, run the development server:
 
 ```bash
@@ -18,11 +22,38 @@ pnpm dev
 bun dev
 ```
 
+Features: 
+Login using Google or LinkedlIn 
+Secure OAuth 2.0 intergration with NextAuth.js 
+Responsive and accessible user interface. 
+Error handling for login failiures. 
+
+Environemental Setup: 
+Create .env.local file in the root of the project: 
+
+GOOGLE_CLIENT_ID= "Personal credentials"
+GOOGLE_CLIENT_SECRET="Personal credentials"
+LINKEDIN_CLIENT_ID="Personal credentials"
+LINKEDIN_CLIENT_SECRET="Personal credentials"
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET="Personal credentials"
+
+**Replace the "Personal credentials" with your actual OAuth credentials. 
+
+Running the Project: 
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start the development server with the command below.
+
+npm run dev 
+
+Open http://localhost:3000 to see the app. 
+
+Then click the login buttons to authenticate via Goodle or LinkedIn.
+
+Successfully log out by clicking the red log out button towards the center of the app. 
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
 
