@@ -42,9 +42,7 @@ NEXTAUTH_SECRET="Personal credentials"
 
 Running the Project: 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-Start the development server with the command below.
-
+Run the command below in root of project: 
 npm run dev 
 
 Open http://localhost:3000 to see the app. 
